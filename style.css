@@ -276,17 +276,13 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
-#skills .skills-content .row .items:nth-child(3) P{
-    margin-top: 20px;
-}
+
 #skills .skills-content .row .items:nth-child(2) img{
-    max-width:00px;
+    max-width:70px;
 }
-#skills .skills-content .row .items:nth-child(3){
-    margin-top: 30px;
-}
+
 #skills .row img{
     max-width: 60px;
 }
