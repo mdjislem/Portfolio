@@ -255,6 +255,7 @@ header{
 #skills .skills-content .row{
     display: grid;
     grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: 170px;
     align-items: center;
     justify-content: center;
     
@@ -263,6 +264,7 @@ header{
 
 
 #skills .skills-content .row .items{
+    height: 125px;
     color: white;
     background-color: black;
     text-align: center;
@@ -271,13 +273,24 @@ header{
     border-radius: 10px;
     font-size: 18px;
     transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#skills .skills-content .row .items:nth-child(3) P{
+    margin-top: 20px;
 }
 #skills .skills-content .row .items:nth-child(2) img{
-    max-width: 65px;
+    max-width:00px;
+}
+#skills .skills-content .row .items:nth-child(3){
+    margin-top: 30px;
 }
 #skills .row img{
-    max-width: 55px;
+    max-width: 60px;
 }
+
 
 #skills .skills-content .row .items:hover{
     box-shadow: 10px 10px 10px #00f4ab0c;
